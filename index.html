@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio của Nguyễn Thị Anh Thơ — Videographer, Photographer & Editor chuyên nghiệp. Chụp ảnh, quay phim sự kiện, thương mại, thời trang và MV ca nhạc." />
+  <meta property="og:title" content="Nguyễn Thị Anh Thơ | Videographer · Photographer · Editor" />
+  <meta property="og:description" content="Creative portfolio — Quay phim, Chụp ảnh & Dựng phim" />
+  <title>Nguyễn Thị Anh Thơ | Videographer · Photographer · Editor</title>
+
+  <!-- Google Fonts: Display + Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== PRELOADER ===== -->
+  <div id="preloader" class="preloader">
+    <div class="preloader__inner">
+      <p class="preloader__name">ANH THƠ</p>
+      <div class="preloader__bar"><div class="preloader__fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <header id="site-header" class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="logo" id="logo-link">
+        <span class="logo__at">ANH</span><span class="logo__tho"> THƠ</span>
+      </a>
+
+      <nav id="main-nav" class="main-nav" role="navigation" aria-label="Main navigation">
+        <a href="#about" class="nav-item" id="nav-about">Về Tôi</a>
+        <a href="#services" class="nav-item" id="nav-services">Dịch Vụ</a>
+        <a href="#portfolio" class="nav-item" id="nav-portfolio">Portfolio</a>
+        <a href="#skills" class="nav-item" id="nav-skills">Kỹ Năng</a>
+        <a href="#contact" class="nav-item nav-item--pill" id="nav-contact">Liên Hệ ✦</a>
+      </nav>
+
+      <button class="burger" id="burger-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="nav-drawer" class="nav-drawer" aria-hidden="true">
+    <button class="drawer-close" id="drawer-close" aria-label="Close menu">✕</button>
+    <nav class="drawer-nav">
+      <a href="#about" class="drawer-link" id="d-about">Về Tôi</a>
+      <a href="#services" class="drawer-link" id="d-services">Dịch Vụ</a>
+      <a href="#portfolio" class="drawer-link" id="d-portfolio">Portfolio</a>
+      <a href="#skills" class="drawer-link" id="d-skills">Kỹ Năng</a>
+      <a href="#contact" class="drawer-link drawer-link--cta" id="d-contact">Liên Hệ</a>
+    </nav>
+    <div class="drawer-bottom">
+      <a href="tel:0983967621">0983 967 621</a>
+    </div>
+  </div>
+  <div id="drawer-overlay" class="drawer-overlay"></div>
+
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <!-- Giant editorial background letters -->
+    <span class="hero-bg-letter" aria-hidden="true">P</span>
+    <span class="hero-bg-letter hero-bg-letter--2" aria-hidden="true">O</span>
+
+    <!-- Colour blocks -->
+    <div class="hero-block hero-block--mint" aria-hidden="true"></div>
+    <div class="hero-block hero-block--pink" aria-hidden="true"></div>
+    <div class="hero-block hero-block--lavender" aria-hidden="true"></div>
+
+    <div class="hero-layout">
+      <!-- Left: stacked text -->
+      <div class="hero-text">
+        <p class="hero-label fade-in" style="--d:.1s">✦ CREATIVE PORTFOLIO</p>
+
+        <!-- Big chunky staggered name — inspired by template -->
+        <div class="hero-title-block fade-in" style="--d:.2s">
+          <div class="title-row">
+            <span class="title-big">NGUYỄN</span>
+          </div>
+          <div class="title-row title-row--indent">
+            <span class="title-big title-big--outline">THỊ</span>
+            <span class="title-big title-big--pink"> ANH</span>
+          </div>
+          <div class="title-row">
+            <span class="title-big">THƠ</span>
+          </div>
+        </div>
+
+        <div class="hero-roles fade-in" style="--d:.4s">
+          <span class="role-pill role-pill--mint">Videographer</span>
+          <span class="role-pill role-pill--pink">Photographer</span>
+          <span class="role-pill role-pill--lav">Editor</span>
+        </div>
+
+        <p class="hero-tagline fade-in" style="--d:.5s">
+          <em>Kể câu chuyện của bạn<br/>qua từng khung hình đẹp nhất</em>
+        </p>
+
+        <div class="hero-cta fade-in" style="--d:.65s">
+          <a href="#portfolio" class="btn btn--pink" id="hero-btn-work">Xem Portfolio</a>
+          <a href="#contact" class="btn btn--ghost" id="hero-btn-contact">Liên Hệ</a>
+        </div>
+      </div>
+
+      <!-- Right: portrait with decorative frames -->
+      <div class="hero-portrait-wrap fade-in" style="--d:.3s">
+        <div class="portrait-frame">
+          <div class="portrait-bg-mint"></div>
+          <img src="assets/feminine_hero.png" alt="Nguyễn Thị Anh Thơ — Videographer" class="portrait-img" />
+          <div class="portrait-badge">
+            <span>5+</span>
+            <small>Năm<br/>Kinh Nghiệm</small>
+          </div>
+          <div class="portrait-accent-line portrait-accent-line--v"></div>
+          <div class="portrait-accent-line portrait-accent-line--h"></div>
+        </div>
+
+        <!-- Floating stat cards -->
+        <div class="float-card float-card--1">
+          <span class="float-card__num">200+</span>
+          <span class="float-card__label">Dự Án</span>
+        </div>
+        <div class="float-card float-card--2">
+          <span class="float-card__num">50+</span>
+          <span class="float-card__label">Khách Hàng</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="scroll-cue">
+      <span>scroll</span>
+      <div class="scroll-cue__line"></div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Videographer</span><span class="mx">✦</span>
+      <span>Photographer</span><span class="mx">✦</span>
+      <span>Editor</span><span class="mx">✦</span>
+      <span>Storyteller</span><span class="mx">✦</span>
+      <span>Color Grading</span><span class="mx">✦</span>
+      <span>Creative Director</span><span class="mx">✦</span>
+      <span>Videographer</span><span class="mx">✦</span>
+      <span>Photographer</span><span class="mx">✦</span>
+      <span>Editor</span><span class="mx">✦</span>
+      <span>Storyteller</span><span class="mx">✦</span>
+      <span>Color Grading</span><span class="mx">✦</span>
+      <span>Creative Director</span><span class="mx">✦</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Images collage -->
+        <div class="about-collage reveal-left">
+          <div class="collage-block collage-block--main">
+            <img src="assets/feminine_about.png" alt="Nguyễn Thị Anh Thơ trong studio" />
+          </div>
+          <div class="collage-block collage-block--small">
+            <img src="assets/work_portrait.png" alt="Chụp ảnh chân dung" />
+            <div class="collage-label">THE CREATIVE</div>
+          </div>
+          <div class="collage-deco collage-deco--circle"></div>
+          <div class="collage-deco collage-deco--plus">✦</div>
+        </div>
+
+        <!-- Text -->
+        <div class="about-content reveal-right">
+          <div class="section-tag">✦ Về Tôi</div>
+          <h2 class="section-heading">
+            <em>Đam Mê &</em><br/>
+            Sáng Tạo
+          </h2>
+          <p class="about-intro">
+            Xin chào! Tôi là <strong>Nguyễn Thị Anh Thơ</strong> — Videographer, Photographer và Editor với hơn <strong>5 năm kinh nghiệm</strong> sáng tạo nội dung hình ảnh chất lượng cao.
+          </p>
+          <p class="about-body">
+            Tôi đam mê kể những câu chuyện đẹp qua ánh sáng và góc máy, từ những khoảnh khắc lãng mạn trong phim cưới, vẻ đẹp thời trang editorial, đến video thương hiệu ấn tượng.
+          </p>
+          <p class="about-body">
+            Mỗi khung hình là một tác phẩm — tôi không chỉ ghi lại, mà còn <em>cảm nhận và tạo ra cảm xúc</em>.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat__n">5+</span>
+              <span class="stat__l">Năm Kinh Nghiệm</span>
+            </div>
+            <div class="stat">
+              <span class="stat__n">200+</span>
+              <span class="stat__l">Dự Án</span>
+            </div>
+            <div class="stat">
+              <span class="stat__n">50+</span>
+              <span class="stat__l">Khách Hàng</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn--pink" id="about-btn-contact">Làm Việc Cùng Tôi →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="services section section--soft">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag section-tag--center">✦ Dịch Vụ</div>
+        <h2 class="section-heading section-heading--center">
+          Những Gì Tôi <em>Tạo Ra</em>
+        </h2>
+      </div>
+
+      <div class="services-row">
+        <!-- Card 1 -->
+        <div class="svc-card reveal-up" id="svc-video" style="--d:.05s">
+          <div class="svc-card__img-wrap">
+            <img src="assets/work_mv.png" alt="Quay phim" class="svc-card__img" />
+            <div class="svc-card__num">01</div>
+          </div>
+          <div class="svc-card__body">
+            <div class="svc-card__icon">🎬</div>
+            <h3 class="svc-card__title">Quay Phim</h3>
+            <p class="svc-card__desc">MV, TVC, phim sự kiện & phóng sự thương hiệu với thiết bị chuyên nghiệp và góc nhìn sáng tạo.</p>
+            <ul class="svc-list">
+              <li>MV ca nhạc & phim ngắn</li>
+              <li>TVC thương mại</li>
+              <li>Video doanh nghiệp</li>
+              <li>Drone videography</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 2 — highlighted -->
+        <div class="svc-card svc-card--featured reveal-up" id="svc-photo" style="--d:.15s">
+          <div class="svc-card__img-wrap">
+            <img src="assets/work_fashion.png" alt="Chụp ảnh" class="svc-card__img" />
+            <div class="svc-card__num">02</div>
+          </div>
+          <div class="svc-card__body">
+            <div class="svc-card__icon">📸</div>
+            <h3 class="svc-card__title">Chụp Ảnh</h3>
+            <p class="svc-card__desc">Chân dung, thời trang, sản phẩm & sự kiện — mỗi bức ảnh là một câu chuyện riêng biệt.</p>
+            <ul class="svc-list">
+              <li>Chân dung & cá nhân</li>
+              <li>Thời trang & editorial</li>
+              <li>Ảnh sản phẩm</li>
+              <li>Ảnh sự kiện</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="svc-card reveal-up" id="svc-edit" style="--d:.25s">
+          <div class="svc-card__img-wrap">
+            <img src="assets/work_product.png" alt="Dựng phim" class="svc-card__img" />
+            <div class="svc-card__num">03</div>
+          </div>
+          <div class="svc-card__body">
+            <div class="svc-card__icon">✂️</div>
+            <h3 class="svc-card__title">Dựng Phim & Hậu Kỳ</h3>
+            <p class="svc-card__desc">Biên tập, color grading và motion graphics — hoàn thiện mọi chi tiết để sản phẩm thật xuất sắc.</p>
+            <ul class="svc-list">
+              <li>Biên tập & dựng phim</li>
+              <li>Color grading</li>
+              <li>Motion graphics</li>
+              <li>Sound design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="portfolio section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag section-tag--center">✦ Portfolio</div>
+        <h2 class="section-heading section-heading--center">
+          Những Khoảnh Khắc <em>Đẹp Nhất</em>
+        </h2>
+      </div>
+
+      <!-- Filter -->
+      <div class="filter-row reveal-up">
+        <button class="filter-pill active" data-filter="all" id="f-all">Tất Cả</button>
+        <button class="filter-pill" data-filter="video" id="f-video">Video</button>
+        <button class="filter-pill" data-filter="photo" id="f-photo">Ảnh</button>
+        <button class="filter-pill" data-filter="edit" id="f-edit">Hậu Kỳ</button>
+      </div>
+
+      <!-- Masonry-style grid -->
+      <div class="pf-grid">
+        <div class="pf-item pf-item--tall reveal-up" data-cat="photo" id="pf1" style="--d:.05s">
+          <img src="assets/work_wedding.png" alt="Wedding Cinematic" class="pf-img" />
+          <div class="pf-overlay">
+            <span class="pf-cat">Photography</span>
+            <h3 class="pf-title">Wedding Cinematic Film</h3>
+            <span class="pf-link">Xem thêm →</span>
+          </div>
+        </div>
+
+        <div class="pf-item reveal-up" data-cat="photo" id="pf2" style="--d:.1s">
+          <img src="assets/work_fashion.png" alt="Fashion Editorial" class="pf-img" />
+          <div class="pf-overlay">
+            <span class="pf-cat">Fashion</span>
+            <h3 class="pf-title">Fashion Editorial</h3>
+            <span class="pf-link">Xem thêm →</span>
+          </div>
+        </div>
+
+        <div class="pf-item reveal-up" data-cat="photo" id="pf3" style="--d:.15s">
+          <img src="assets/work_portrait.png" alt="Portrait Series" class="pf-img" />
+          <div class="pf-overlay">
+            <span class="pf-cat">Portrait</span>
+            <h3 class="pf-title">Portrait Series</h3>
+            <span class="pf-link">Xem thêm →</span>
+          </div>
+        </div>
+
+        <div class="pf-item pf-item--wide reveal-up" data-cat="video" id="pf4" style="--d:.2s">
+          <img src="assets/work_event.png" alt="Event Coverage" class="pf-img" />
+          <div class="pf-overlay">
+            <span class="pf-cat">Event</span>
+            <h3 class="pf-title">Corporate Event Film</h3>
+            <span class="pf-link">Xem thêm →</span>
+          </div>
+        </div>
+
+        <div class="pf-item reveal-up" data-cat="photo" id="pf5" style="--d:.25s">
+          <img src="assets/work_product.png" alt="Product Photography" class="pf-img" />
+          <div class="pf-overlay">
+            <span class="pf-cat">Product</span>
+            <h3 class="pf-title">Product Photography</h3>
+            <span class="pf-link">Xem thêm →</span>
+          </div>
+        </div>
+
+        <div class="pf-item pf-item--tall reveal-up" data-cat="video" id="pf6" style="--d:.3s">
+          <img src="assets/feminine_about.png" alt="MV Production" class="pf-img" />
+          <div class="pf-overlay">
+            <span class="pf-cat">Music Video</span>
+            <h3 class="pf-title">MV Production 2024</h3>
+            <span class="pf-link">Xem thêm →</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="skills section section--soft">
+    <div class="container">
+      <div class="skills-layout">
+        <div class="skills-left reveal-left">
+          <div class="section-tag">✦ Kỹ Năng</div>
+          <h2 class="section-heading">
+            Thành Thạo<br/><em>Công Cụ Sáng Tạo</em>
+          </h2>
+          <p class="skills-desc">
+            Tôi nắm vững các phần mềm và thiết bị hàng đầu ngành, giúp biến ý tưởng của bạn thành những sản phẩm hình ảnh hoàn hảo.
+          </p>
+
+          <div class="gear-tags">
+            <span class="gear-tag">Sony FX6</span>
+            <span class="gear-tag">RED Cinema</span>
+            <span class="gear-tag">DJI Drone</span>
+            <span class="gear-tag">Canon EOS R</span>
+            <span class="gear-tag">Aputure</span>
+            <span class="gear-tag">Gimbal</span>
+          </div>
+        </div>
+
+        <div class="skills-right reveal-right">
+          <div class="sbar-group">
+            <div class="sbar" id="sb-premiere">
+              <div class="sbar__top">
+                <span class="sbar__name">Adobe Premiere Pro</span>
+                <span class="sbar__pct">95%</span>
+              </div>
+              <div class="sbar__track"><div class="sbar__fill" data-w="95"></div></div>
+            </div>
+            <div class="sbar" id="sb-ae">
+              <div class="sbar__top">
+                <span class="sbar__name">After Effects</span>
+                <span class="sbar__pct">85%</span>
+              </div>
+              <div class="sbar__track"><div class="sbar__fill" data-w="85"></div></div>
+            </div>
+            <div class="sbar" id="sb-davinci">
+              <div class="sbar__top">
+                <span class="sbar__name">DaVinci Resolve</span>
+                <span class="sbar__pct">90%</span>
+              </div>
+              <div class="sbar__track"><div class="sbar__fill" data-w="90"></div></div>
+            </div>
+            <div class="sbar" id="sb-lr">
+              <div class="sbar__top">
+                <span class="sbar__name">Lightroom / Photoshop</span>
+                <span class="sbar__pct">92%</span>
+              </div>
+              <div class="sbar__track"><div class="sbar__fill" data-w="92"></div></div>
+            </div>
+            <div class="sbar" id="sb-cam">
+              <div class="sbar__top">
+                <span class="sbar__name">Camera Operation</span>
+                <span class="sbar__pct">98%</span>
+              </div>
+              <div class="sbar__track"><div class="sbar__fill" data-w="98"></div></div>
+            </div>
+            <div class="sbar" id="sb-light">
+              <div class="sbar__top">
+                <span class="sbar__name">Lighting Setup</span>
+                <span class="sbar__pct">88%</span>
+              </div>
+              <div class="sbar__track"><div class="sbar__fill" data-w="88"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testi section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag section-tag--center">✦ Đánh Giá</div>
+        <h2 class="section-heading section-heading--center">
+          Khách Hàng <em>Yêu Thích</em>
+        </h2>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi-card reveal-up" id="tc1" style="--d:.05s">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Anh Thơ đã biến đám cưới của chúng tôi thành một bộ phim thực sự chạm đến tim. Mỗi lần xem lại đều rơi nước mắt. Tuyệt vời hơn mọi kỳ vọng!"</p>
+          <div class="testi-author">
+            <div class="testi-av testi-av--pink">LH</div>
+            <div>
+              <strong>Lan Hương</strong>
+              <small>Cô dâu — Wedding Film 2024</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card testi-card--featured reveal-up" id="tc2" style="--d:.15s">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"TVC của chúng tôi đạt 2 triệu view! Hình ảnh đẹp, ý tưởng sáng tạo và quy trình làm việc cực kỳ chuyên nghiệp. Đối tác tin cậy cho mọi chiến dịch."</p>
+          <div class="testi-author">
+            <div class="testi-av testi-av--mint">MT</div>
+            <div>
+              <strong>Minh Tuấn</strong>
+              <small>Brand Manager — TVC Campaign</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal-up" id="tc3" style="--d:.25s">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Bộ ảnh sản phẩm của Anh Thơ giúp doanh thu tăng 40% tháng đầu. Kỹ năng ánh sáng và bố cục cực kỳ chuyên nghiệp và tinh tế."</p>
+          <div class="testi-author">
+            <div class="testi-av testi-av--lav">PL</div>
+            <div>
+              <strong>Phương Linh</strong>
+              <small>CEO — E-commerce Brand</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <!-- Editorial heading -->
+      <div class="contact-editorial reveal-up">
+        <div class="section-tag section-tag--center">✦ Liên Hệ</div>
+        <h2 class="contact-heading">
+          <span class="ch-row">Hãy Cùng</span>
+          <span class="ch-row ch-row--accent"><em>Hợp Tác</em></span>
+          <span class="ch-row ch-row--outline">Nào!</span>
+        </h2>
+        <p class="contact-sub">Bạn có dự án thú vị? Tôi rất mong được nghe và tạo nên điều kỳ diệu cùng bạn!</p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Info -->
+        <div class="contact-info reveal-left">
+          <a href="tel:0983967621" class="cinfo-item" id="ci-phone">
+            <div class="cinfo-icon cinfo-icon--pink">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.49 5.49l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+            </div>
+            <div>
+              <span class="cinfo-label">Điện Thoại</span>
+              <strong class="cinfo-value">0983 967 621</strong>
+            </div>
+          </a>
+
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="cinfo-item" id="ci-fb">
+            <div class="cinfo-icon cinfo-icon--mint">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </div>
+            <div>
+              <span class="cinfo-label">Facebook</span>
+              <strong class="cinfo-value">Nguyễn Thị Anh Thơ</strong>
+            </div>
+          </a>
+
+          <div class="cinfo-item" id="ci-loc">
+            <div class="cinfo-icon cinfo-icon--lav">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <span class="cinfo-label">Khu Vực</span>
+              <strong class="cinfo-value">Việt Nam</strong>
+            </div>
+          </div>
+
+          <!-- Decorative image card -->
+          <div class="contact-img-card">
+            <img src="assets/work_portrait.png" alt="Work sample" />
+            <div class="contact-img-card__tag">Let's create together ✦</div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form-wrap reveal-right">
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-row">
+              <div class="fg">
+                <label for="f-name">Họ & Tên</label>
+                <input type="text" id="f-name" name="name" placeholder="Nguyễn Văn A" required />
+              </div>
+              <div class="fg">
+                <label for="f-email">Email</label>
+                <input type="email" id="f-email" name="email" placeholder="email@example.com" required />
+              </div>
+            </div>
+            <div class="fg">
+              <label for="f-service">Dịch Vụ</label>
+              <select id="f-service" name="service">
+                <option value="">— Chọn dịch vụ —</option>
+                <option>Quay Phim</option>
+                <option>Chụp Ảnh</option>
+                <option>Dựng Phim & Hậu Kỳ</option>
+                <option>Tất Cả Dịch Vụ</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label for="f-msg">Nội Dung</label>
+              <textarea id="f-msg" name="message" rows="5" placeholder="Mô tả dự án, thời gian thực hiện, ngân sách..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--pink btn--full" id="form-submit-btn">
+              Gửi Tin Nhắn ✦
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <span class="footer-logo">ANH THƠ</span>
+          <p class="footer-tagline">Videographer · Photographer · Editor</p>
+        </div>
+        <div class="footer-nav">
+          <a href="#about" id="fl-about">Về Tôi</a>
+          <a href="#services" id="fl-services">Dịch Vụ</a>
+          <a href="#portfolio" id="fl-portfolio">Portfolio</a>
+          <a href="#contact" id="fl-contact">Liên Hệ</a>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="fsoc" id="fsoc-fb" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="tel:0983967621" class="fsoc" id="fsoc-phone" aria-label="Gọi điện">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.45 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 5.49 5.49l.95-.95a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2024 Nguyễn Thị Anh Thơ. All rights reserved.</p>
+        <p>Made with <span class="heart">♥</span> in Vietnam</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
