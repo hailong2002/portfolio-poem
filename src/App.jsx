@@ -717,7 +717,7 @@ export default function App() {
 
     <div className="footer-bottom">
       <div className="container">
-        <p>© 2024 Nguyễn Thị Anh Thơ. All rights reserved.</p>
+        <p>© 2026 Nguyễn Thị Anh Thơ. All rights reserved.</p>
         <p>Made with <span className="heart">♥</span> in Vietnam</p>
       </div>
     </div>
