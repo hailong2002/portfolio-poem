@@ -310,11 +310,11 @@ export default function App() {
                     <span className="stat__l">Năm Kinh Nghiệm</span>
                   </div>
                   <div className="stat">
-                    <span className="stat__n">200+</span>
+                    <span className="stat__n">100+</span>
                     <span className="stat__l">Dự Án</span>
                   </div>
                   <div className="stat">
-                    <span className="stat__n">50+</span>
+                    <span className="stat__n">80+</span>
                     <span className="stat__l">Khách Hàng</span>
                   </div>
                 </div>
@@ -466,6 +466,33 @@ export default function App() {
                 <div className="pf-overlay">
                   <span className="pf-cat">Music Video</span>
                   <h3 className="pf-title">MV Production 2024</h3>
+                  <span className="pf-link">Xem thêm →</span>
+                </div>
+              </div>
+
+              <div className={`pf-item ${activeFilter !== 'all' && activeFilter !== 'edit' ? 'hidden' : ''}`} data-cat="edit" id="pf7" style={{ '--d': '.35s' }}>
+                <img src="assets/work1.png" alt="Color Grading" className="pf-img" />
+                <div className="pf-overlay">
+                  <span className="pf-cat">Post-Production</span>
+                  <h3 className="pf-title">Color Grading Showcase</h3>
+                  <span className="pf-link">Xem thêm →</span>
+                </div>
+              </div>
+
+              <div className={`pf-item ${activeFilter !== 'all' && activeFilter !== 'edit' ? 'hidden' : ''}`} data-cat="edit" id="pf8" style={{ '--d': '.4s' }}>
+                <img src="assets/work2.png" alt="VFX & Motion Graphics" className="pf-img" />
+                <div className="pf-overlay">
+                  <span className="pf-cat">Editing</span>
+                  <h3 className="pf-title">VFX & Motion Graphics</h3>
+                  <span className="pf-link">Xem thêm →</span>
+                </div>
+              </div>
+
+              <div className={`pf-item ${activeFilter !== 'all' && activeFilter !== 'edit' ? 'hidden' : ''}`} data-cat="edit" id="pf9" style={{ '--d': '.45s' }}>
+                <img src="assets/work3.png" alt="Commercial Editing" className="pf-img" />
+                <div className="pf-overlay">
+                  <span className="pf-cat">Editing</span>
+                  <h3 className="pf-title">Commercial Editing</h3>
                   <span className="pf-link">Xem thêm →</span>
                 </div>
               </div>
