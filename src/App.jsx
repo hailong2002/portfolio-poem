@@ -295,7 +295,7 @@ export default function App() {
             Sáng Tạo
           </h2>
           <p className="about-intro">
-            Xin chào! Tôi là <strong>Nguyễn Thị Anh Thơ</strong> — Videographer, Photographer và Editor với hơn <strong>5 năm kinh nghiệm</strong> sáng tạo nội dung hình ảnh chất lượng cao.
+            Xin chào! Tôi là <strong>Nguyễn Thị Anh Thơ</strong> — Videographer, Photographer và Editor với hơn <strong>2 năm kinh nghiệm</strong> sáng tạo nội dung hình ảnh chất lượng cao.
           </p>
           <p className="about-body">
             Tôi đam mê kể những câu chuyện đẹp qua ánh sáng và góc máy, từ những khoảnh khắc lãng mạn trong phim cưới, vẻ đẹp thời trang editorial, đến video thương hiệu ấn tượng.
